@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PLSJD2W');</script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../../favicons/decision/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicons/decision/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicons/decision/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicons/decision/favicon-16x16.png">
+
+    <link rel="stylesheet" href="/css/setup.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/sections.css">
+    <link rel="stylesheet" href="/css/keyframes.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/boost.css">
+
+    <link rel="stylesheet" href="/pages/decision/decision.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8P6F9KDKSS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8P6F9KDKSS');
+    </script>
+
+    <title>Randmiz Decision</title>
+</head>
+<body>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLSJD2W"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <header class="section-header">
+        <div class="section-banner"></div>
+        <div class="section-go-back margin-auto"><a href="https://randmizr.com" class="go-back">← Go Back</a></div>
+    </header>
+
+
+    <div class="section-container">
+
+
+
+        <section class="start max-width-section margin-auto">
+            <h1 class="section-title">
+                <a href="https://randmizr.com" class="go-back">randmiz</a>  
+                <span class="section-title-focus">decision</span>
+            </h1>
+
+            <div class="input-container">
+                <div class="input-title">Number of Results?</div>
+                <div class="input-sub-text">This is how many results you want shown to you.</div>
+                <select id="NbrOfResults" name="nbrofresults" class="input-text">
+
+                </select>
+            </div>
+
+            <div id="DecisionsList" class="input-container">
+                <div class="input-title">What are the Choices?</div>
+                <div class="input-sub-text">There's enough space for <span class="input-counter">30</span> choices. (15 char. limit)</div>
+                <div class="input-sub-text error-color display-none error-message">Please type in the input field below.</div>
+                <input type="text" class="input-list input-text margin-auto" placeholder="Type Your Choices Here." maxlength="15">
+                <button class="input-list-button button-primary ga-decision-add-choices">+</button>
+                <div class="input-list-items margin-auto">
+                    <div class="input-list-empty">Tap on the + button to start</div>
+
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-sub-text error-color display-none error-message choiceslistempty">The <span class="focus">Choices List</span> needs to have <span class="focus">at least</span> 2 options.</div>
+                <div class="input-sub-text error-color display-none error-message listandselectequalerror">The <span class="focus">Number of Results</span> has to be less than the <span class="focus">Number of Choices</span>.</div>
+            </div>
+
+            <div id="Randmiz" class="randmiz-button-container">
+                <button class="randmiz-button margin-auto ga-decision-randmiz">randmiz</button>
+            </div>
+        </section>
+    
+
+
+
+
+
+        <section class="loading display-none">
+            <div class="loading-text margin-auto max-width-section transform-translate-50">Loading...</div>
+        </section>
+        
+
+
+
+
+
+        <section class="result display-none">
+            <div class="close-result">
+                <button class="close-result-button ga-decision-close-button"></button>
+            </div>
+
+            <div class="result-rain"></div>
+            <div class="result-banner"></div>
+            <div class="invisible"></div>
+            <div class="result-container margin-auto max-width-section">
+
+                <div class="special-card-container"></div>
+
+                <div class="cards-generated-container">
+
+                </div>
+
+
+                <div id="DEBT01" class="boost">
+
+
+                </div>
+
+
+                <div class="retry-container margin-auto">
+                    <div class="disclaimer">Disclaimer: All the results have been totally randomized. Nothing is pre-set in any way nor should it be taken seriously. We are not responsible for anything outside of this page.</div>
+                    <div class="retry-text">Didn't like the results? Try again!</div>
+                    <button class="retry-button ga-decision-retry-button">retry</button>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="/js/script.js" type="module"></script>
+    <script src="/js/sections.js" type="module"></script>
+    <script src="decision.js" type="module"></script>
+</body>
+</html>

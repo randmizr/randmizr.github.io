@@ -1,0 +1,101 @@
+:root{
+    --clr-primary:var(--clr-date);
+}
+
+.color-primary{
+    color:var(--clr-primary) !important;
+}
+
+.special-card > .card-title, 
+.special-card > .card-sub-title, 
+.special-card > .card-header,
+.special-card > .card-text{
+    color:var(--clr-neutral-100);
+}
+
+.compatibility{
+    width:90%;
+    margin:0 auto 50px auto;
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+
+    transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -webkit-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -moz-transition:all cubic-bezier(.85,0,.19,.99) 1s;
+}
+
+.compatibility-header{
+    font-size:1.5rem;
+    font-weight:700;
+    opacity:0.8;
+}
+
+.compatibility-percentage{
+    font-size:7rem;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.compatibility-text{
+    font-size:1rem;
+}
+
+.super-love-bracket{
+    background: rgb(255,165,182);
+    background: -moz-linear-gradient(117deg, rgba(255,165,182,1) 0%, rgba(252,186,199,1) 50%, rgba(254,191,155,1) 100%);
+    background: -webkit-linear-gradient(117deg, rgba(255,165,182,1) 0%, rgba(252,186,199,1) 50%, rgba(254,191,155,1) 100%);
+    background: linear-gradient(117deg, rgba(255,165,182,1) 0%, rgba(252,186,199,1) 50%, rgba(254,191,155,1) 100%);
+
+    transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -webkit-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -moz-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+}
+
+.medium-love-bracket{
+    background: #ffbbc8;
+
+    transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -webkit-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -moz-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+}
+
+.low-love-bracket{
+    background:#ffeae9;
+
+
+    transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -webkit-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -moz-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+}
+
+.gift-player, .gift-item{
+    font-size:1.1rem;
+    font-weight:700;
+}
+
+.gift-item{
+    color:var(--clr-primary);
+}
+
+
+/* Boosts */
+/* Boosts */
+.main-boost > .card{
+    border-bottom:10px solid var(--clr-primary);
+}
+
+.small-boost > .card{
+    border-bottom:5px solid var(--clr-primary);
+}
+
+.list-boost-items > a{
+    border-bottom:3px solid var(--clr-primary);
+    background:var(--clr-neutral-100);
+}
+
+.integrated-boost a{
+    background-color: #fe5f6f27;
+    color: #222222;
+}

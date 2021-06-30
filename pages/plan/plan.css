@@ -1,0 +1,133 @@
+:root{
+    --clr-primary: #fdcf1c;
+    --clr-primary-100:#ffd53f46;
+    --clr-primary-300:#ffd53f7c;
+}
+
+.special-card > .card-title, 
+.special-card > .card-sub-title, 
+.special-card > .card-header,
+.special-card > .card-text{
+    color: #fff !important;
+}
+
+.section-card-title{
+    font-size:1.4rem;
+    color:#000;
+    opacity:0.1;
+}
+
+.result-banner{
+    background:url(../../assets/images/banner/randmizrbannerdark.svg) center center no-repeat, var(--clr-primary);
+    background-size: cover;
+}
+
+.epic-card{
+    background:#7640ee;
+    box-shadow: 0px 15px 50px 10px rgba(36, 14, 83, 0.5);
+    -webkit-box-shadow: 0px 15px 50px 10px rgba(36, 14, 83, 0.5);
+    -moz-box-shadow: 0px 15px 50px 10px rgba(36, 14, 83, 0.5);
+}
+
+.epic-background{
+    background:url(../../assets/images/banner/randmizrbannerlight.svg) center center no-repeat,#2e1549;
+    background-size: cover;
+}
+
+.rare-card{
+    background:linear-gradient(146deg, rgba(255, 174, 1, 1) 100%, rgba(255,196,68,1) 100%);
+    box-shadow: 0 10px 10px 0 rgba(177, 177, 177, 0.384);
+    -webkit-box-shadow: 0 10px 10px 0 rgba(177, 177, 177, 0.384);
+    -moz-box-shadow: 0 10px 10px 0 rgba(177, 177, 177, 0.384);
+}
+
+.rare-background{
+    background:url(../../assets/images/banner/randmizrbannerdark.svg) center center no-repeat,#ffe9bc;
+    background-size: cover;
+}
+
+
+.ultra-instinct-card{
+    background:#191127;
+}
+
+.ultra-instinct-card > .card-header,
+.ultra-instinct-card > .card-title,
+.ultra-instinct-card > .card-text{
+    text-shadow: 5px 5px 10px rgb(24, 24, 26);
+}
+
+.ultra-instinct-background{
+    background:url(https://wallpaperaccess.com/full/2958867.jpg);
+    background-size: cover;
+}
+
+
+.legendary-card{
+    background:url(/assets/images/leaf.svg) center center no-repeat;
+    background-size:contain;
+}
+
+.legendary-background{
+    background:#000;
+}
+
+
+.summer-banner{
+    background:url(../../assets/images/banner/randmizr-summer-banner.svg) center center no-repeat,#2e1549;
+    background-size: cover;
+}
+
+.summer-title{
+    -webkit-animation: color-change 10s infinite;
+    -moz-animation: color-change 10s infinite;
+    -o-animation: color-change 10s infinite;
+    -ms-animation: color-change 10s infinite;
+    animation: color-change 10s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: #e03f42; }
+    50% { color: #a8c089; }
+    70% { color: #fad135; }
+    100% { color: #e03f42; }
+}
+@-moz-keyframes color-change {
+    0% { color: #e03f42; }
+    70% { color: #fad135; }
+    100% { color: #e03f42; }
+}
+@-ms-keyframes color-change {
+    0% { color: #e03f42; }
+    70% { color: #fad135; }
+    100% { color: #e03f42; }
+}
+@-o-keyframes color-change {
+    0% { color: #e03f42; }
+    70% { color: #fad135; }
+    100% { color: #e03f42; }
+}
+@keyframes color-change {
+    0% { color: #e03f42; }
+    70% { color: #fad135; }
+    100% { color: #e03f42; }
+}
+
+/* Boosts */
+.main-boost > .card{
+    border-bottom:10px solid var(--clr-primary);
+}
+
+.small-boost > .card{
+    border-bottom:5px solid var(--clr-primary);
+}
+
+.list-boost-items > a{
+    border-bottom:3px solid var(--clr-primary);
+    background:var(--clr-neutral-100);
+}
+
+.integrated-boost a{
+    background-color: #ffd53f2a;
+    color: #222222;
+}

@@ -1,0 +1,124 @@
+:root{
+    --max-width-help: 700px; 
+}
+
+body{
+    line-height: 2;
+}
+
+.max-width-help{
+    max-width: var(--max-width-help);
+}
+
+section{
+    padding:20px 0;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.toc{
+    width:90%;
+    height:fit-content;
+    background:var(--clr-neutral-100);
+    padding:20px 50px;
+    border-radius:10px;
+}
+
+.toc-hide{
+    display:none;
+}
+
+.toc-header{
+    position:relative;
+    font-size:1.2rem;
+    font-weight:800;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+
+.toc-header img{
+    position:absolute;
+    right:0;
+    width:15px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.heading{
+    font-size:1rem;
+    font-weight:600;
+    padding:5px 0 5px 10px;
+    cursor:pointer;
+}
+
+.subheading{
+    font-size:1rem;
+    font-weight:200;
+    padding:10px 0 10px 50px;
+    cursor:pointer;
+}
+
+.heading, .subheading{
+    border-left:5px solid transparent;
+}
+
+.heading:hover, .subheading:hover{
+    cursor: pointer;
+    border-left:5px solid var(--clr-primary);
+    background:var(--clr-primary-100);
+}
+
+.help-center-info-container{
+    padding:60px 0;
+}
+
+section.help-center{
+    padding:80px 0;
+    width: 90%;
+}
+
+section h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+section h4{
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+}
+
+section .help-center-text{
+    font-size: 1rem;
+}
+
+.go-to-top-button{
+    position:fixed;
+    bottom:-100vh;
+    right:50px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url(/assets/icons/arrowup.svg) center center no-repeat, var(--clr-neutral-900);
+    background-size:15px;
+    -webkit-box-shadow: 0px 5px 20px -7px rgba(150, 150, 150, 0.4);
+    box-shadow: 0px 5px 20px -7px rgba(150, 150, 150, 0.4);
+    transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -webkit-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -moz-transition:all cubic-bezier(.85,0,.19,.99) 1s;
+    cursor:pointer;
+    visibility: hidden;
+}
+
+.show-go-to-top-button{
+    bottom:50px;
+    visibility: visible;
+    transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -webkit-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -moz-transition:all cubic-bezier(.85,0,.19,.99) 1s;
+    cursor:pointer;
+}
+

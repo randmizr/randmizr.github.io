@@ -1,0 +1,47 @@
+.pop{
+    visibility: visible !important;
+    -moz-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    transform: scale(1) !important;
+
+    transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -webkit-transition:all cubic-bezier(.85,0,.19,.99) 1s; 
+    -moz-transition:all cubic-bezier(.85,0,.19,.99) 1s;
+}
+
+.make-it-buzz{
+    -webkit-animation-name: buzz;
+    animation-name: buzz;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: forwards;
+    animation-iteration-count: forwards;
+}
+
+.fade-in{
+    -moz-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    transform: scale(1) !important;
+
+    opacity:1 !important;
+
+    transition:all ease-in-out 7s; 
+    -webkit-transition:all ease-in-out 7s; 
+    -moz-transition:all ease-in-out 7s;
+}
+
+.rain{
+    animation: rain 20s infinite;
+   -moz-animation: rain 20s infinite;
+   -webkit-animation: rain 20s infinite;
+}
+
+.bubble{
+    animation: bubble 20s infinite;
+   -moz-animation: bubble 20s infinite;
+   -webkit-animation: bubble 20s infinite;
+}
