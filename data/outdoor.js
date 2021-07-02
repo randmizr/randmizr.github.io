@@ -1,7 +1,7 @@
 export const list =
 [
   {
-    "name": "Rnb party",
+    "name": "RnB party",
     "description": "Get your hip hop shoes on, cause it's about to get down! Don't forget to mention your Randmizr team in your stories while busting a move."
   },
   {
@@ -13,28 +13,16 @@ export const list =
     "description": "If it's crashing at a pub, going shopping at an antique store or just strolling down the street, Byblos is the place to be."
   },
   {
-    "name": "A relaxing night cruise with your friends",
+    "name": "Night cruise with friends",
     "description": "Pick up your friends, get a fire playlist ready and enjoy a night ride filled with deep conversations!"
-  },
-  {
-    "name": "Chouwen lake",
-    "description": "It's a 40 minute hike, but you will be rewarded when you reach your destination, don't forget to pack a swimsuit!"
   },
   {
     "name": "Go to Faraya",
     "description": "Everyone wants to be in Faraya at the weekend and how can we blame them? Give it a try today and let us know what you think!"
   },
   {
-    "name": "Sightseeing Phoenician Wall Batroun",
+    "name": "Phoenician Wall Batroun",
     "description": "Batroun holds many beautiful sights to visit, we've made it easier by randomizing the choice. The Phoenician wall is your destination today!"
-  },
-  {
-    "name": "Tyre beach",
-    "description": "You have the possibilities to either take a dip in one of the crystal clear waters of the Tyre shore or just chill at a nearby cafe with a beautiful view of the sunset."
-  },
-  {
-    "name": "Picnic (Tannourine)",
-    "description": "You're in for a lucky one! Today you get the satisfaction of a road trip and a full belly all at once! Tannourine is the beautiful destination to head to."
   },
   {
     "name": "Shoot some hoops",
@@ -57,7 +45,7 @@ export const list =
     "description": "It took 60 years for one of the greatest lebanese visionaries to build a breathtaking castle! It took only a push of a button to set it up as your day's amazing journey!"
   },
   {
-    "name": "Tripoli old souk",
+    "name": "Tripoli Old Souk",
     "description": "The streets of Tripoli's folkloric old souk is today's destination!"
   },
   {
@@ -73,10 +61,6 @@ export const list =
     "description": "Dating back to the 8th century, the Ruins of Anjar is the site you will be heading to today!"
   },
   {
-    "name": "Jazirit el aranib",
-    "description": "The Palms Island is the oasis where you will be spending a lovely sunny day this afternoon!"
-  },
-  {
     "name": "Wadi Qannoubine",
     "description": "If you crave sights and hikes then we got you covered! Qannoubine we choose you!"
   },
@@ -85,12 +69,8 @@ export const list =
     "description": "The Phoenician God of healing will have guests at his temple today! May your journey be blessed."
   },
   {
-    "name": "Kfarmatta silk factory",
+    "name": "Kfarmatta Silk Factory",
     "description": "True silk fashion is an art. Learning how an entire factory works is on the to do list today!"
-  },
-  {
-    "name": "Sidon sea castle",
-    "description": "What better way to spend a sunny evening than exploring a castle made at sea in Sidon!"
   },
   {
     "name": "Beiteddine palace",
@@ -117,28 +97,16 @@ export const list =
     "description": "You don't have to be an expert in Wine tasting to enjoy a journey around the history of Chateau Ksara. While you’re at it, how about trying their amazing wine!"
   },
   {
-    "name": "Kadisha Grotto (Bsharri)",
-    "description": "One of Bsharri's jewels of nature, the Qadisha Grotto is the prime location you will be cruising up to today."
-  },
-  {
     "name": "Pubs in Jounieh",
     "description": "Crash at a pub of your liking at Jounieh. Tonight the party is on!"
   },
   {
-    "name": "Chill at a pub in Badaro",
-    "description": "Sip on a glass of drink at any of Badaro's chill pubs. The music’s also great, we promise! (maybe)"
-  },
-  {
-    "name": "Stargazing (Falougha)",
-    "description": "Hope there is no forecast tonight, grab a mat and lay on the grounds of Falougha for some quality stargazing!"
+    "name": "Pubs in Badaro",
+    "description": "Sip on a drink at any of Badaro's chill pubs. The music’s also great, we promise! (maybe)"
   },
   {
     "name": "Watch the sunset/sunrise (Harissa)",
     "description": "The Holy grounds of Harissa is a perfect spot for you to meditate. This is one of the most famous locations in Lebanon!"
-  },
-  {
-    "name": "Take a walk in the park",
-    "description": "Nothing like a walk in the nearest park either on your own to gather some thoughts or with a friend to catch up!"
   },
   {
     "name": "Bike ride (Downtown)",
@@ -147,10 +115,6 @@ export const list =
   {
     "name": "Barbecue with friends",
     "description": "Burgers, hot dogs or chicken wings... why not all three of them! Enjoy your meal and have a great time!"
-  },
-  {
-    "name": "Bike ride (Manara)",
-    "description": "A bike ride is what we recommend today around the Manara area, plenty of choices to pedal towards."
   },
   {
     "name": "Chill at a pub in Gemmayze",
@@ -197,10 +161,6 @@ export const list =
     "description": "Strike! And that's how you beat all your friends."
   },
   {
-    "name": "Set a lemonade stand",
-    "description": "Hey you never know, it might be profitable! But if we come by, will you offer us free lemonade?"
-  },
-  {
     "name": "Find shapes in the clouds",
     "description": "Clouds hide a lot of images and shapes, do you have a keen eye? You might see the Randmizr logo! No? Too much?"
   },
@@ -229,14 +189,6 @@ export const list =
     "description": "Zap the opposing team and have fun in this unconventional and harmless warfare!"
   },
   {
-    "name": "Water balloon fight",
-    "description": "Escape the heat of the sun in the backyard with a stack of water balloons ready to be popped!"
-  },
-  {
-    "name": "Go to an amusement park",
-    "description": "A good amusement park knows no age, and will make for a great evening out!"
-  },
-  {
     "name": "Getaway with your loved ones",
     "description": "Nothing beats spending a night with your loved ones at one of the many getaway places in lebanon."
   },
@@ -247,13 +199,5 @@ export const list =
   {
     "name": "Go to the mall",
     "description": "Nothing you can't find or do at a Mall. Cinema, lunch or just looking around and shopping."
-  },
-  {
-    "name": "Téléphérique",
-    "description": "An antique attraction leading to the holy grounds of Harissa, the téléphérique is the activity of the day."
-  },
-  {
-    "name": "Go Karting",
-    "description": "Drifting at high speed around each turn is the way to go while karting with your friends! May the best racer win!"
   }
 ]
