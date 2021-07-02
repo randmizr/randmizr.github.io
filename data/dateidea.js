@@ -127,7 +127,7 @@ export const list =
   },
   {
     "id": "DI25",
-    "name": "Go to a coffe shop",
+    "name": "Go to a coffee shop",
     "description": "We recommend you both a chill evening full of chatter sipping on hot drinks at any coffee shop you desire."
   },
   {
